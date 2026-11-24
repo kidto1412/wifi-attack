@@ -1,0 +1,19 @@
+# Python dependencies (stdlib only — no pip packages required)
+# This file exists for consistency; all imports are from Python standard library.
+
+# System dependencies (install via brew, not pip):
+# aircrack-ng  -> provides aircrack-ng, airodump-ng, aireplay-ng
+# hcxtools     -> provides hcxpcapngtool (for .cap → .hc22000 conversion)
+#
+# brew install aircrack-ng hcxtools
+#
+# macOS airport utility (built-in, just needs symlink):
+# sudo ln -s /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport /usr/local/bin/airport
+
+# Optional Python packages (uncomment if needed for extensions):
+# requests>=2.31.0          # for web API integrations
+# scapy>=2.5.0              # for custom packet crafting
+# netaddr>=0.10.0           # for MAC/IP manipulation
+# click>=8.1.0              # for enhanced CLI
+# rich>=13.0.0              # for pretty terminal output
+# tqdm>=4.66.0              # for progress bars
